@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>MOVIES</title>
+</head>
+<body>
+<div class=" thumbnail"> 
+                    <img itemprop="image" style="max-height: 340px; display: block;" class="img-rounded img-responsive center-block lazy-image" src="dr.jpg" data-original="../tempex/doctor-strange-in-the-multiverse-of-madness-med.jpg" alt="Doctor Strange in the Multiverse of Madness"></a>
+          <h4 itemprop="name" class="text-center hidden-sm hidden-xs">
+		  <div class="carousel-caption">
+                            <div class="text-center center-block">
+							<h2>Dr strange-in-the-multiverse-of-madness-med</h2>
+							 <div class="caption">
+                       <p itemprop="description" class="text-justify">
+              Dr. Stephen Strange casts a forbidden spell that opens the door to the multiverse, including an alternate version of himself, whose threat to humanity is too great for the combined forces of Strange, Wong, and Wanda Maximoff.
+
+            </p>
+            <p><strong>Genre:</strong> 
+              Action, Adventure, Fantasy            </p>
+            <p><strong>Duration:</strong> 
+              TBA            </p>
+            <p><strong>Release Date:</strong> 
+              <strong class="text-danger">Fri 6th May 2022</strong>
+            </p>
+            <p><strong>Age Restriction:</strong> 
+              TBA            </p>
+          </div>
+      </div>
+     </div>
+    </div>
+
+
+
+
+</body>
+</html>

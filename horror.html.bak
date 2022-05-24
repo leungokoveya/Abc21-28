@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>MOVIES</title>
+</head>
+<style>
+html{
+   background-color:#3C2A6F;
+
+
+movies-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+
+
+
+</style>
+
+<body>
+
+<div class="movies-grid">
+
+<section>
+<div class="row ">
+  <div class="col-sm-12 thumbnail">
+    <div class="col-sm-4 "> <a data-toggle="modal" data-target="#poster-preview" data-image-big="bell.jpg" data-image-name="The Black Phone">
+             <img itemprop="image" style="max-height: 340px; display: block;" class="img-rounded img-responsive center-block lazy-image"" class="img-rounded img-responsive center-block lazy-image " src="bell.jpg" data-original="bell.jpg" alt="The Black Phone"></a> </div>
+    
+    <div class="col-sm-8">
+    <h3 class="text-center">The Black Phone</a></h3>
+   
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+	</body>
+	</html>

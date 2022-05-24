@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>MOVIES</title>
+<style>
+</style>
+</head>
+<body>
+ <div class=" thumbnail"> <a href="sonic.html">
+                    <img itemprop="image" style="max-height: 340px; display: block;" class="img-rounded img-responsive center-block lazy-image" src="soni.jpg" data-original="soni.jpg" alt="Sonic the Hedgehog 2"></a>
+					
+					<div class="caption">
+                       <p itemprop="description" class="text-justify">
+              When the manic Dr Robotnik returns to Earth with a new ally, Knuckles the Echidna, Sonic and his new friend Tails is all that stands in their way.
+
+            </p>
+            <p><strong>Genre:</strong> 
+              Animation, Adventure, Action            </p>
+            <p><strong>Duration:</strong> 
+              2h 02min            </p>
+            <p><strong>Release Date:</strong> 
+              <strong class="text-danger">Fri 1st Apr 2022</strong>
+            </p>
+            <p><strong>Age Restriction:</strong> 
+              PG            </p>
+			  </div>
+			  </div>
+			  </body>
+			  </html>

@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>MOVIES</title>
+</head>
+<style>
+html{
+   background-color:#3C2A6F;
+   
+   
+   
+   
+   
+   </style>
+   <div class="container"><div class="panel panel--transparent"><h1>Contact us</h1> <h3>We'd Love to Hear From You.</h3></div> <div class="panel"><div class="layout row wrap gutter-40"><div class="flex xs12 sm8"><form novalidate="novalidate" class="form"><div class="form-group"><label for="">What can we help you with?</label> <div><div tabindex="0" class="comboselect comboselect--above"><!----> <div class="comboselect__select"></div>  <div class="comboselect__tags"><div class="comboselect__tags-wrap" style="display: none;"></div> <!----> <div class="comboselect__spinner" style="display: none;"></div> <!----> <span class="comboselect__single">
+                    Please choose an option
+                </span></div> <div class="comboselect__content-wrapper" style="max-height: 260px; display: none;"> <ul class="comboselect__content" style="display: inline-block;"><!----> <li class="comboselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Remove" class="comboselect__option comboselect__option--highlight"><span class="option__title">I'd Just Like to Leave a Message</span></span> <!----></li><li class="comboselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Remove" class="comboselect__option"><span class="option__title">Browsing Movies</span></span> <!----></li><li class="comboselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Remove" class="comboselect__option"><span class="option__title">Booking Tickets</span></span> <!----></li><li class="comboselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Remove" class="comboselect__option"><span class="option__title">NewTop Theatres Clubs and Movie Cards</span></span> <!----></li><li class="comboselect__element"><span data-select="Press enter to select" data-selected="Selected" data-deselect="Remove" class="comboselect__option"><span class="option__title">NewTop Theatres Fan Club or MORvies Club Cancellation</span></span> <!----></li> <li style="display: none;"><span class="comboselect__option">No elements found. Consider changing the search query.</span></li> </ul></div></div> <!----></div></div> <!----></form></div> <div class="flex xs12 sm4"><address><h4>Customer Care</h4> <p>0861 MOVIES (668437)</p></address> <address><h4>Email</h4> <p>info@NewTop THeatres.com</p> <br> <p><strong>For corporate or block bookings please contact us on:</strong></p> <p>corporate@NewTop Theatres.com</p></address> </div></div>

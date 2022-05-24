@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MOVIES</title>
+</head>
+<style>
+html{
+   background-color:#3C2A6F;
+}
+</style>
+
+<body>
+<section>
+  <div class="container">
+    <h1 class="text-center"> Service Feedback </h1>
+    <h4 class="text-center text-muted"> Tell us about your website experirence </h4>
+    <hr class="hr-primary">
+  
+  <div class="row">
+    <div class="col-md-12">
+    <div class="caption">
+      <p class="text-justify">We strive to provide the best movie experience at all our NewTop Theatres. We think it is important to keep a close relationship with all our customers.</p>
+      <p class="text-justify">If you have had a bad experience and want to tell us all about it or simply just want to give us a high five, please go right ahead. We are very open minded and would greatly benefit from your feedback.</p>
+      <p class="text-justify">The more details you send us the better it will help us. For example, if you can remember the cashier's name, or the time something happened etc.</p>
+    </div>
+  </div></div>
+  </div>
+</section>
+<section class="bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-center"> <i class="fa fa-smile-o fa-fw"></i> Hot or <i class="fa fa-frown-o fa-fw"></i> Not</h3>
+        <hr class="hr-white">
+        <iframe name="submited" style="display:none"></iframe>
+        <div id="formsent" style=" display:none">
+          <div class="alert alert-success" role="alert"> <strong><span class="glyphicon glyphicon-ok"></span> Thank you!</strong> We greatly appreciate your feedback. </div>
+          <center>
+            <p><a id="close" type="button" data-dismiss="modal" class="btn btn-danger">Close</a></p>
+          </center>
+        </div>
+        <form id="serviceform" role="form" name="serviceform" action="../sendform?form=servicefb" method="post" novalidate="novalidate" class="bv-form"><button type="submit" class="bv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+          <div class="form-group has-feedback">
+            <div class="input-group"><span class="input-group-addon"><i class="fa fa-user fa-lg fa-fw"></i></span>
+              <input id="name" type="text" name="name" placeholder="Name" class="form-control" data-bv-field="name">
+            </div><i class="form-control-feedback" data-bv-icon-for="name" style="display: none; top: 0px; z-index: 100;"></i>
+          <small class="help-block" data-bv-validator="notEmpty" data-bv-for="name" data-bv-result="NOT_VALIDATED" style="display: none;">Name is required</small></div>
+          <div class="form-group has-feedback">
+            <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope fa-lg fa-fw"></i></span>
+              <input id="email" type="email" name="email" class="form-control" placeholder="Email Address" data-bv-field="email">
+            </div><i class="form-control-feedback" data-bv-icon-for="email" style="display: none; top: 0px; z-index: 100;"></i>
+          <small class="help-block" data-bv-validator="emailAddress" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">Enter a valid email address</small><small class="help-block" data-bv-validator="notEmpty" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">Email address is required</small></div>
+          <div class="form-group has-feedback">
+            <div class="input-group"><span class="input-group-addon"><i class="fa fa-phone fa-lg fa-fw"></i></span>
+              <input type="text" id="telephone" name="telephone" class="form-control" placeholder="Telephone" data-bv-field="telephone">
+            </div><i class="form-control-feedback" data-bv-icon-for="telephone" style="display: none; top: 0px; z-index: 100;"></i>
+          <small class="help-block" data-bv-validator="digits" data-bv-for="telephone" data-bv-result="NOT_VALIDATED" style="display: none;">The phone number can contain digits only</small><small class="help-block" data-bv-validator="notEmpty" data-bv-for="telephone" data-bv-result="NOT_VALIDATED" style="display: none;">The phone number is required</small></div>
+          <div class="form-group has-feedback">
+            <div class="input-group"><span class="input-group-addon"><i class="fa fa-film fa-lg fa-fw"></i></span>
+              <select id="cinema" name="cinema" class="form-control" data-bv-field="cinema">
+                <option></option>
+                
+              </select>
+            </div><i class="form-control-feedback" data-bv-icon-for="cinema" style="display: none; top: 0px; z-index: 100;"></i>
+          <small class="help-block" data-bv-validator="notEmpty" data-bv-for="cinema" data-bv-result="NOT_VALIDATED" style="display: none;">Cinema is required</small></div>
+          <div class="form-group has-feedback">
+            <div class="input-group"><span class="input-group-addon"><i class="fa fa-thumbs-up fa-lg fa-fw"></i></span>
+              <select id="rating" name="rating" class="form-control" data-bv-field="rating">
+                <option></option>
+                <option value="Super Impressed! (10/10)">Super Impressed!</option>
+                <option value="Was Great (9/10)">Was Great</option>
+                <option value="Ok, I guess (8/10)">Ok, I guess</option>
+                <option value="Satisfactory (7/10)">Satisfactory</option>
+                <option value="Could have been better (6/10)">Could have been better</option>
+                <option value="Nothing to be proud of (5/10)">Nothing to be proud of</option>
+                <option value="Not impressed (4/10)">Not impressed</option>
+                <option value="Quite Bad hey (3/10)">Quite Bad hey</option>
+                <option value="Dissapointing (2/10)">Dissapointing</option>
+                <option value="Absolutely Terrible! (1/10)">Absolutely Terrible!</option>
+              </select>
+            </div><i class="form-control-feedback" data-bv-icon-for="rating" style="display: none; top: 0px; z-index: 100;"></i>
+          <small class="help-block" data-bv-validator="notEmpty" data-bv-for="rating" data-bv-result="NOT_VALIDATED" style="display: none;">Rating is required</small></div>
+          <div class="form-group has-feedback">
+            <div class="input-group"> <span class="input-group-addon"><i class="fa fa-comment fa-lg fa-fw"></i></span>
+              <textarea rows="10" cols="100" id="comments" name="comments" class="form-control" placeholder="Message" data-bv-field="comments"></textarea>
+            </div><i class="form-control-feedback" data-bv-icon-for="comments" style="display: none; top: 0px; z-index: 100;"></i>
+          <small class="help-block" data-bv-validator="notEmpty" data-bv-for="comments" data-bv-result="NOT_VALIDATED" style="display: none;">Message is required</small></div>
+          <button name="subscribe" type="submit" class="btn btn-success center-block">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>   
